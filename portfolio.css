@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    background-color: #fafafa;
+    font-family: monospace;
+
+
+}
+
+body {
+    margin: 0;
+}
+
+.navFlexContainer {
+
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+
+}
+
+.navFlexContainer a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+header {
+    padding: 7rem;
+}
+
+.aboutFlexContainer {
+    padding:4rem;
+
+}
+
+.projectTitle {
+    text-align:center;
+}
+
+
+.projectsFlexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.project1 {
+    background-color: darkgray;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+}
+
+
+.project2 {
+    background-color: rgba(143, 143, 143, 0.3);
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+}
+
+
+.project3 {
+    background-color: darkgray;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+}
+
+
+.project4 {
+    background-color: rgba(170, 170, 170, 0.3);
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+}
+
+.project5 {
+    background-color: rgba(170, 170, 170, 0.3);
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+}
+
+.project6 {
+    background-color: rgba(170, 170, 170, 0.3);
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+}
+
+
+
+footer {
+    padding: 5rem;
+    text-align: center;
+
+}
+
+/* On screens that are 640px or more, set the background color to olive */
+@media screen and (min-width:640px){
+    .projectsFlexContainer {
+        flex-direction: row;
+        align-content: center;
+        flex-wrap: wrap;
+        margin: 4rem;
+
+    }
+
+
+}
