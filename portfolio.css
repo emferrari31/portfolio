@@ -23,6 +23,7 @@ body {
 .navFlexContainer a {
     text-decoration: none;
     color: black;
+    font-size: 16pt;
 
 
 }
@@ -54,73 +55,100 @@ header {
 
 }
 
-.projectTitle {
-    text-align:center;
-}
 
+
+
+/*.projectTitle {*/
+/*    text-align:center;*/
+/*    font-size: 18pt;*/
+/*    font-family: "Poppins", sans-serif;*/
+/*    color:#423b3b;*/
+/*}*/
+
+.title_portfolio {
+    width: 100vw;
+}
 
 .projectsFlexContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 2rem;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
+
 }
+
 
 
 .project1 {
-    background-color: #e43d12;
-    width: 28rem;
-    height: 28rem;
+    border: 4px dashed #e43d12;
+    border-radius:50px;
+    width: 43rem;
+    height: 43rem;
     padding: 1rem;
     text-align:center;
+    font-size: 15pt;
 }
 
+
+.proj1image {
+    width: 30rem;
+
+}
 
 
 
 .project2 {
-    background-color: #d65360;
-    width: 28rem;
-    height: 28rem;
+    border: 4px dashed #e43d12;
+    border-radius:50px;
+    width: 43rem;
+    height: 43rem;
     padding: 1rem;
     text-align:center;
+    font-size: 15pt;
 }
 
 
 .project3 {
-    background-color: #efb11d;
-    width: 28rem;
-    height: 28rem;
+    border: 4px dashed #e43d12;
+    border-radius:50px;
+    width: 43rem;
+    height: 43rem;
     padding: 1rem;
     text-align:center;
+    font-size: 15pt;
 }
 
 
 .project4 {
-    background-color: rgba(170, 170, 170, 0.3);
-    width: 28rem;
-    height: 28rem;
+    border: 4px dashed #e43d12;
+    border-radius:50px;
+    width: 43rem;
+    height: 43rem;
     padding: 1rem;
     text-align:center;
+    font-size: 15pt;
 }
 
 .project5 {
-    background-color: rgba(170, 170, 170, 0.3);
-    width: 28rem;
-    height: 28rem;
+    border: 4px dashed #e43d12;
+    border-radius:50px;
+    width: 43rem;
+    height: 43rem;
     padding: 1rem;
     text-align:center;
+    font-size: 15pt;
 }
 
 .project6 {
-    background-color: rgba(170, 170, 170, 0.3);
-    width: 28rem;
-    height: 28rem;
+    border: 4px dashed #e43d12;
+    border-radius:50px;
+    width: 43rem;
+    height: 43rem;
     padding: 1rem;
     text-align:center;
+    font-size: 15pt;
 }
 
 
@@ -195,10 +223,16 @@ footer {
         /*}*/
 
         footer {
-            padding: 10rem 0;
+
+            font-size: 18pt;
         }
 
     }
+
+.footer_image {
+    width: 100vw;
+}
+
 
 
 
