@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio Site </title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="portfolio.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -10,26 +14,34 @@
 <body>
 
 <nav>
-    <div class="navFlexContainer">
-        <a href="#"> Home </a>
-        <a href="#"> About </a>
-        <a href="#"> Portfolio </a>
-        <a href="#"> Contact </a>
+    <div id="jumpHome" class="navFlexContainer">
+        <a href="#jumpHome"> Home </a>
+        <a href="#jumpAbout"> About </a>
+        <a href="#jumpPortfolio"> Portfolio </a>
+        <a href="#jumpContact"> Contact </a>
     </div>
 </nav>
 
     <header>
-        <h1> Nice to meet you! I'm Emma. </h1>
-        Full Stack Developer - Bath, Somerset
+<!--        <h1> Nice to meet you! I'm Emma. </h1>-->
+<!--        Full Stack Developer - Bath, Somerset-->
+
+        <img class="headerImage"  src="Heading2.svg" alt="heading">
+
     </header>
 
-    <section class="aboutFlexContainer">
-        <h1> A little bit about me... </h1>
-        I'm baby kinfolk humblebrag actually, gorpcore butcher cornhole pork belly polaroid shabby chic hella tbh portland. Narwhal taiyaki affogato blog VHS gochujang drinking vinegar etsy locavore kogi quinoa mixtape four loko. Cornhole seitan migas, keffiyeh pinterest glossier cloud bread skateboard synth coloring book bitters williamsburg literally. Vape distillery pabst, cray heirloom tonx lumbersexual mlkshk coloring book irony cred.
+<!--    <section id="jumpAbout" class="aboutFlexContainer">-->
+<!--        <h1> A little bit about me... </h1>-->
+<!--        I'm baby kinfolk humblebrag actually, gorpcore butcher cornhole pork belly polaroid shabby chic hella tbh portland. Narwhal taiyaki affogato blog VHS gochujang drinking vinegar etsy locavore kogi quinoa mixtape four loko. Cornhole seitan migas, keffiyeh pinterest glossier cloud bread skateboard synth coloring book bitters williamsburg literally. Vape distillery pabst, cray heirloom tonx lumbersexual mlkshk coloring book irony cred.-->
 
-    </section>
+<!--    </section>-->
 
-    <section>
+<section>
+    <img id="jumpAbout" class="aboutImage"  src="About_Me_Draft.svg" alt="About Me">
+
+</section>
+
+    <section id="jumpPortfolio">
         <h1 class="projectTitle"> Projects </h1>
 
         <div class="projectsFlexContainer">
@@ -48,8 +60,11 @@
     </section>
 
     <footer>
-        <h2> Get in touch! </h2>
+        <h2 id="jumpContact"> Get in touch! </h2>
         <p> Send me an email or connect via LinkedIn </p>
+
+        <a href="http://google.com"><i class='bx bxl-github'></i> </a>
+        <a href="https://www.linkedin.com/in/ferrariemma1610/"><i class='bx bxl-linkedin-square'></i> </a>
 
 
     </footer>
