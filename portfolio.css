@@ -1,17 +1,21 @@
 *{
     box-sizing: border-box;
+
+    /*You should set the background-color property on body*/
+    /*instead of here, otherwise everything will have this background!*/
     background-color: #fafafa;
 }
 
 img {
     width: 100vw;
+    /*Please remove commented-out lines*/
     /*height: 100vh;*/
 }
 
 body {
     margin: 0;
     font-family: monospace;
-
+/*Please remove blank lines like these*/
 
 }
 
@@ -33,7 +37,7 @@ body {
 a:hover{
     color: #d6536d;
 }
-
+/*Just have one blank line between css rules*/
 
 .headerImage{
     width:100vw;
@@ -50,7 +54,9 @@ a:hover{
 }
 
 
-
+/*Be consistent with class names:*/
+/*use camelCase, snake_case, or kebab-case,*/
+/*but choose just one and stick to it!*/
 .title_portfolio {
     width: 100vw;
 }
@@ -146,7 +152,7 @@ footer {
 }
 
 
-
+/*Actually, this would be from 640 - 800px*/
 /*full screen */
 @media screen and (min-width:640px){
     .projectsFlexContainer {
@@ -158,6 +164,9 @@ footer {
 
     }
 
+
+    /*Again, the indentation here is off, so use*/
+    /*code -> reformat code to align it*/
     .navFlexContainer a{
         font-size: 2rem;
     }
