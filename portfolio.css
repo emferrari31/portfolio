@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     background-color: #fafafa;
-
 }
 
 img {
@@ -56,7 +55,6 @@ a:hover{
 
 .title_portfolio {
     width: 100vw;
-
 }
 
 .projectsFlexContainer {
@@ -80,9 +78,7 @@ a:hover{
 
 .proj1image {
     width: 80%;
-
 }
-
 
 
 .project2 {
@@ -132,8 +128,6 @@ a:hover{
 footer {
     padding: 5rem;
     text-align: center;
-
-
 }
 
 
