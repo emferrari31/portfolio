@@ -42,13 +42,11 @@ a:hover{
 
 .aboutImage {
     width: 100vw;
-
 }
 
 
 .aboutFlexContainer {
     padding: 5rem 3rem;
-
 }
 
 
@@ -56,6 +54,7 @@ a:hover{
 .title_portfolio {
     width: 100vw;
 }
+
 
 .projectsFlexContainer {
     display: flex;
