@@ -1,18 +1,15 @@
-*{
+* {
     box-sizing: border-box;
-    background-color: #fafafa;
 }
 
 img {
     width: 100vw;
-    /*height: 100vh;*/
 }
 
 body {
     margin: 0;
     font-family: monospace;
-
-
+    background-color: #fafafa;
 }
 
 .navFlexContainer {
@@ -30,113 +27,98 @@ body {
     font-size: 1rem;
 }
 
-a:hover{
+a:hover {
     color: #d6536d;
 }
 
-
-.headerImage{
-    width:100vw;
+.headerImage {
+    width: 100vw;
 }
-
 
 .aboutImage {
     width: 100vw;
 }
 
-
 .aboutFlexContainer {
     padding: 5rem 3rem;
 }
 
-
-
-.title_portfolio {
+.titlePortfolio {
     width: 100vw;
 }
-
 
 .projectsFlexContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
+    padding: 1rem;
 }
-
-
 
 .project1 {
     border: 4px dashed #e43d12;
-    border-radius:50px;
+    border-radius: 50px;
     padding: 1rem;
-    text-align:center;
+    text-align: center;
     font-size: 8pt;
 }
-
 
 .proj1image {
     width: 80%;
 }
 
-
 .project2 {
     border: 4px dashed #e43d12;
-    border-radius:50px;
+    border-radius: 50px;
     padding: 1rem;
-    text-align:center;
+    text-align: center;
     font-size: 8pt;
 }
-
 
 .project3 {
     border: 4px dashed #e43d12;
-    border-radius:50px;
+    border-radius: 50px;
     padding: 1rem;
-    text-align:center;
+    text-align: center;
     font-size: 8pt;
 }
 
-
 .project4 {
     border: 4px dashed #e43d12;
-    border-radius:50px;
+    border-radius: 50px;
     padding: 1rem;
-    text-align:center;
+    text-align: center;
     font-size: 8pt;
 }
 
 .project5 {
     border: 4px dashed #e43d12;
-    border-radius:50px;
+    border-radius: 50px;
     padding: 1rem;
-    text-align:center;
+    text-align: center;
     font-size: 8pt;
 }
 
 .project6 {
     border: 4px dashed #e43d12;
-    border-radius:50px;
+    border-radius: 50px;
     padding: 1rem;
-    text-align:center;
+    text-align: center;
     font-size: 8pt;
 }
-
-
 
 footer {
     padding: 5rem;
     text-align: center;
 }
 
-
 /*800 and up */
-@media screen and (min-width:800px) {
+@media screen and (min-width: 800px) {
     .projectsFlexContainer {
         padding-right: 8rem;
         padding-left: 8rem;
-
-
+        flex-direction: row;
     }
 
     footer {
@@ -145,31 +127,21 @@ footer {
 
 }
 
-
-
 /*full screen */
-@media screen and (min-width:640px){
+@media screen and (min-width: 640px) {
     .projectsFlexContainer {
         flex-direction: row;
         align-content: center;
         flex-wrap: wrap;
-        margin: 4rem;
-
 
     }
 
-    .navFlexContainer a{
+    .navFlexContainer a {
         font-size: 2rem;
     }
 
-        footer {
-
-            font-size: 18pt;
-        }
-
-
+    footer {
+        font-size: 18pt;
+        padding: 5rem;
     }
-
-
-
-
+}
