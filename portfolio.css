@@ -17,8 +17,7 @@ body {
     flex-wrap: wrap;
     justify-content: right;
     gap: 2rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
+    padding: 1rem;
 }
 
 .navFlexContainer a {
@@ -28,7 +27,7 @@ body {
 }
 
 a:hover {
-    color: #d6536d;
+    color: #e43d12;
 }
 
 .headerImage {
@@ -156,8 +155,8 @@ footer {
     }
 
     footer {
-        font-size: 18pt;
-        padding: 5rem;
+        /*font-size: 1vw;*/
+        padding: 6vw;
     }
 }
 
@@ -177,6 +176,7 @@ footer {
     }
 
     footer {
-        padding: 10rem 0;
+        /*font-size: 1vw;*/
+        padding: 1vw;
     }
 }
