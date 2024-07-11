@@ -17,7 +17,7 @@ body {
     flex-wrap: wrap;
     justify-content: right;
     gap: 2rem;
-    padding-right: 3rem;
+    padding-right: 1rem;
     padding-top: 1rem;
 }
 
@@ -133,7 +133,7 @@ footer {
 
 
 
-/*full screen */
+/*tablet */
 @media screen and (min-width: 640px) {
     .projectsFlexContainer1 {
         flex-direction: row;
@@ -152,7 +152,7 @@ footer {
     }
 
     .navFlexContainer a {
-        font-size: 2rem;
+        font-size: 2vw;
     }
 
     footer {
