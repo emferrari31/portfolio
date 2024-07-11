@@ -131,42 +131,24 @@ footer {
     text-align: center;
 }
 
-/*800 and up */
-@media screen and (min-width: 800px) {
-    .projectsFlexContainer1 {
-        flex-direction: row;
-        flex-wrap:wrap;
-    }
-    .projectsFlexContainer2 {
-        flex-direction: row;
-        flex-wrap:wrap;
-    }
-    .projectsFlexContainer3 {
-        flex-direction: row;
-        flex-wrap:wrap;
-    }
 
-    footer {
-        padding: 10rem 0;
-    }
-}
 
 /*full screen */
 @media screen and (min-width: 640px) {
     .projectsFlexContainer1 {
         flex-direction: row;
-        align-content: center;
-        flex-wrap: wrap;
+        /*align-content: center;*/
+        /*flex-wrap: wrap;*/
     }
     .projectsFlexContainer2 {
         flex-direction: row;
-        align-content: center;
-        flex-wrap: wrap;
+        /*align-content: center;*/
+        /*flex-wrap: wrap;*/
     }
     .projectsFlexContainer3 {
         flex-direction: row;
-        align-content: center;
-        flex-wrap: wrap;
+        /*align-content: center;*/
+        /*flex-wrap: wrap;*/
     }
 
     .navFlexContainer a {
@@ -176,5 +158,25 @@ footer {
     footer {
         font-size: 18pt;
         padding: 5rem;
+    }
+}
+
+/*800 and up */
+@media screen and (min-width: 800px) {
+    .projectsFlexContainer1 {
+        flex-direction: row;
+        /*flex-wrap:wrap;*/
+    }
+    .projectsFlexContainer2 {
+        flex-direction: row;
+        /*flex-wrap:wrap;*/
+    }
+    .projectsFlexContainer3 {
+        flex-direction: row;
+        /*flex-wrap:wrap;*/
+    }
+
+    footer {
+        padding: 10rem 0;
     }
 }
